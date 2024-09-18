@@ -10,4 +10,14 @@
 <a href="../members">members</a>
 <a href="../about">about</a>
 </body>
+
+    <h1>welcome to website</h1>
+    
+<ul>
+    {% for x in mymembers %}
+      <li>{{ x.firstname }} {{ x.lastname }}</li>
+    {% endfor %}
+</ul>
+
+
 </html>
